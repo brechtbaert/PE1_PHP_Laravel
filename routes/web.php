@@ -20,6 +20,6 @@ Route::get('/', function (){
     return view('LottoIngave');
 });
 
-Route::post('/uitslag','UserController@result') -> name('result');
+Route::post('/uitslag','LottoController@result') -> name('result');
 
 
