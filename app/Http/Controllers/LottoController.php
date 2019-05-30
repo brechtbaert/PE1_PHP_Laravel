@@ -16,6 +16,6 @@ class UserController extends Controller
         $num6 = $request -> input('num6');
 
 
-
+        return view('result', array('numbers' => $num1,$num2,$num3,$num4,$num5,$num6));
     }
 }
